@@ -7,8 +7,7 @@ import (
 
 func TestAdd(t *testing.T) {
 	// Arrange
-	num1 := 1
-	num2 := 2
+	num1, num2 := 2, 1
 	expected := 3
 
 	// Act
